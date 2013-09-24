@@ -2,6 +2,8 @@ package main;
 
 public class QuestionFive {
 
+	// this is not a love song.
+
 	public static String shortenString(String word) {
 		int count = 0;
 		char currentLetter = word.charAt(0);
