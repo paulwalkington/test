@@ -27,7 +27,7 @@ public class StringUntil {
 	}
 	
 	public static boolean hasUniqueCharacters(String word) {
-		Set<Character> letters = new HashSet<>();
+		Set<Character> letters = new HashSet<Character>();
 
 		for (char c : word.toCharArray()) {
 			letters.add(Character.toUpperCase(c));
